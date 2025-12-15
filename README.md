@@ -37,7 +37,6 @@ These results suggest that policy interventions based solely on distance or util
 
 ## Presentation
 - [Project Presentation (PDF)]
-
-- ## Presentation
-[![Project Presentation Preview](./preview.png)](./presentation_obstetric_accessibility.pdf)
+- Preview
+![Project Presentation Preview](./preview.png)
 
