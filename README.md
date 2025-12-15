@@ -23,6 +23,12 @@ Unlike existing criteria that rely mainly on distance or utilization rates, this
 
 These results suggest that policy interventions based solely on distance or utilization criteria may fail to detect high-risk underserved areas.
 
+## Code
+- **01_data_preprocessing.py**: Preprocesses hospital and facility datasets to extract delivery-capable hospitals and aggregates delivery room capacity and women aged 25–39 at the district level.
+- **02_data_preprocessing.py**: Combines district-level birth rates with delivery room capacity to compute a birth-rate-adjusted delivery room indicator and identify potential underserved areas.
+- **03_buffer_analysis.py**: Performs a 20 km buffer analysis around delivery-capable hospitals to assess geographic coverage and identify districts outside effective service areas.
+- **04_2SFCA_analysis.py**: Implements a road-network-based Two-Step Floating Catchment Area (2SFCA) analysis using OSMnx to quantify spatial accessibility to obstetric care based on supply and demand.
+
 ## Tools and Libraries
 - Python
 - Pandas, GeoPandas
