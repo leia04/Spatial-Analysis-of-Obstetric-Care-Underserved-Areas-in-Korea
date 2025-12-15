@@ -35,7 +35,7 @@ These results suggest that policy interventions based solely on distance or util
 - OSMnx, NetworkX
 - Shapely, Matplotlib
 
-## My Contribution
+## Contribution
 - Designed the demand definition based on childbirth statistics (women aged 25–39)
 - Implemented the network-based 2SFCA accessibility analysis
 - Performed spatial preprocessing and visualization
