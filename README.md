@@ -9,12 +9,6 @@ Unlike existing criteria that rely mainly on distance or utilization rates, this
 - Existing accessibility-based criteria may overlook areas with high childbirth demand
 - Distance-based measures alone fail to reflect road-network constraints and spatial inequality
 
-## Approach
-- Demand: Women aged 25–39 (actual childbirth population)
-- Supply: Hospitals equipped with delivery rooms
-- Methods:
-  - 20 km buffer-based accessibility analysis
-  - Network-based 2SFCA using OpenStreetMap road networks
 
 ## Key Findings
 - Jeollanam-do was identified as the most vulnerable province
@@ -22,6 +16,15 @@ Unlike existing criteria that rely mainly on distance or utilization rates, this
 - Naju-si emerged as a critical case with high childbirth demand but an accessibility score of zero
 
 These results suggest that policy interventions based solely on distance or utilization criteria may fail to detect high-risk underserved areas.
+
+
+## Approach
+- Demand: Women aged 25–39 (actual childbirth population)
+- Supply: Hospitals equipped with delivery rooms
+- Methods:
+  - 20 km buffer-based accessibility analysis
+  - Network-based 2SFCA using OpenStreetMap road networks
+
 
 ## Code
 - **01_data_preprocessing.py**: Preprocesses hospital and facility datasets to extract delivery-capable hospitals and aggregates delivery room capacity and women aged 25–39 at the district level.
