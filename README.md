@@ -1,4 +1,4 @@
-# Spatial Analysis of Obstetric Care Underserved Areas in Korea
+# Spatial Analysis of Obstetric Care Underserved Areas of Korea
 
 ## Abstract
 This project identifies obstetric care underserved areas by integrating spatial accessibility and actual childbirth demand.  
